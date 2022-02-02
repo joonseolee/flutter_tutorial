@@ -1,5 +1,4 @@
-import 'dart:developer';
-
+import 'page_router.dart' as page_router;
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Flutter Tutorial'),
     );
   }
 }
@@ -31,18 +30,15 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  List<Page> pages = [
-    Page('Animate a widget using a physics simulation', 'wwf'),
-    Page('Animate the properties of a container', 'wwf')
-  ];
-
   List<Widget> showPages() {
-    return pages
+    return page_router.pages
         .map((page) => Center(
               child: ListTile(
                 title: Text(page.title),
                 subtitle: Text(page.url),
-                onTap: () => {},
+                onTap: () {
+                  Navigator.of(context).push(_createRoute(page));
+                },
                 focusColor: Colors.blue,
               ),
             ))
@@ -61,9 +57,10 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-class Page {
-  final String title;
-  final String url;
-
-  Page(this.title, this.url);
+Route _createRoute(page_router.Page page) {
+  return PageRouteBuilder(
+      pageBuilder: (context, animation, secondaryAnimation) => page.widget,
+      transitionsBuilder: (context, animation, secondaryAnimation, child) {
+        return child;
+      });
 }
