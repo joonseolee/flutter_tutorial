@@ -18,6 +18,7 @@ class PhysicsCardDragDemo extends StatelessWidget {
 
 class DraggableCard extends StatefulWidget {
   final Widget child;
+
   DraggableCard({required this.child});
 
   @override
@@ -38,6 +39,8 @@ class _DraggableCardState extends State<DraggableCard>
     final unitsPerSecond = Offset(unitsPerSecondX, unitsPerSecondY);
     final unitVelocity = unitsPerSecond.distance;
 
+    // mass: 이미지를 드래그했다가 원이치로 이동하는데 걸리는 시간
+    // damping: mass 와 마찬가지로 비슷하지만 제동을 추가하여 시간 입력
     const spring = SpringDescription(mass: 30, stiffness: 1, damping: 1);
 
     final simulation = SpringSimulation(spring, 0, 1, -unitVelocity);

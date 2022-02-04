@@ -1,5 +1,6 @@
-import 'page_router.dart' as page_router;
 import 'package:flutter/material.dart';
+
+import 'page_router.dart' as page_router;
 
 void main() {
   runApp(const MyApp());
