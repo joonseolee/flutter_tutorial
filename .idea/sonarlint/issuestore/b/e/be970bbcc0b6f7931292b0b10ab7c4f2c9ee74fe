@@ -1,0 +1,11 @@
+
+@
+java:S1128"+Remove this unused import 'io.flutter.Log'.(»¶Í/
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÜË˜¦ûÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(ÇøÁ•
+O
+java:S1172"4Remove this unused method parameter "flutterEngine".(ÜË˜¦ûÿÿÿÿ
+=
+java:S1068"'Remove this unused "TAG" private field.(Ì‡§¡

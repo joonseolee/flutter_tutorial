@@ -3,6 +3,7 @@ library page_router;
 import 'package:flutter/material.dart';
 import 'package:flutter_tutorial/pages/animation/animated_container_app.dart';
 import 'package:flutter_tutorial/pages/animation/fade_widget.dart';
+import 'package:flutter_tutorial/pages/animation/drawer_screen.dart';
 import 'package:flutter_tutorial/pages/animation/physics_card_drag_demo.dart';
 
 class Page {
@@ -20,4 +21,5 @@ List<Page> pages = [
       const AnimatedContainerApp()),
   Page('fade widget', '이미지 흐려지게 만들기',
       const FadeWidget(title: '')),
+  Page('Add a drawer to a screen', 'drawer 추가하기', const DrawerScreen()),
 ];
