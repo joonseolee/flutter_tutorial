@@ -1,9 +1,10 @@
 library page_router;
 
 import 'package:flutter/material.dart';
+import 'package:flutter_tutorial/design/drawer_screen.dart';
+import 'package:flutter_tutorial/design/snackbar_demo.dart';
 import 'package:flutter_tutorial/pages/animation/animated_container_app.dart';
 import 'package:flutter_tutorial/pages/animation/fade_widget.dart';
-import 'package:flutter_tutorial/pages/animation/drawer_screen.dart';
 import 'package:flutter_tutorial/pages/animation/physics_card_drag_demo.dart';
 
 class Page {
@@ -19,7 +20,7 @@ List<Page> pages = [
       const PhysicsCardDragDemo()),
   Page('Animated container app', '도형 크기 랜덤으로 변경하기',
       const AnimatedContainerApp()),
-  Page('fade widget', '이미지 흐려지게 만들기',
-      const FadeWidget(title: '')),
+  Page('fade widget', '이미지 흐려지게 만들기', const FadeWidget(title: '')),
   Page('Add a drawer to a screen', 'drawer 추가하기', const DrawerScreen()),
+  Page('Display a snackbar', '스낵바 띄우기', const SnackBarDemo())
 ];
