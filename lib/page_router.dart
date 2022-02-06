@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tutorial/design/adopt_font.dart';
 import 'package:flutter_tutorial/design/drawer_screen.dart';
 import 'package:flutter_tutorial/design/snackbar_demo.dart';
+import 'package:flutter_tutorial/design/update_orientation.dart';
 import 'package:flutter_tutorial/pages/animation/animated_container_app.dart';
 import 'package:flutter_tutorial/pages/animation/fade_widget.dart';
 import 'package:flutter_tutorial/pages/animation/physics_card_drag_demo.dart';
@@ -24,5 +25,7 @@ List<Page> pages = [
   Page('fade widget', '이미지 흐려지게 만들기', const FadeWidget(title: '')),
   Page('Add a drawer to a screen', 'drawer 추가하기', const DrawerScreen()),
   Page('Display a snackbar', '스낵바 띄우기', const SnackBarDemo()),
-  Page('Adopt a font', '폰트 적용하기', const AdoptFont())
+  Page('Adopt a font', '폰트 적용하기', const AdoptFont()),
+  Page('Update the UI based on orientation', '수평/수직에 따라 item ui 변경',
+      const UpdateOrientation())
 ];
