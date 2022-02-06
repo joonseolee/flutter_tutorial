@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9103775-49fe-447b-aa94-5fc5710dac6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/design/snackbar_demo.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/KOHIBaeum.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/KOHIBaeumOTF.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/design/adopt_font.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5ed705ec013456989c8ecdd292d70f602e0e8f9f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/page_router.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page_router.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/animation/drawer_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/design/drawer_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,17 +59,22 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lib/fonts" />
       <recent name="$PROJECT_DIR$/lib/design" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,6 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643953965123</updated>
       <workItem from="1643953967514" duration="2247000" />
+      <workItem from="1644115694912" duration="1131000" />
     </task>
     <servers />
   </component>
