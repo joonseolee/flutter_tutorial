@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9103775-49fe-447b-aa94-5fc5710dac6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/design/share_theme.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/design/tab_bar_demo.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/page_router.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page_router.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643953965123</updated>
       <workItem from="1643953967514" duration="2247000" />
-      <workItem from="1644115694912" duration="3422000" />
+      <workItem from="1644115694912" duration="3803000" />
     </task>
     <servers />
   </component>
