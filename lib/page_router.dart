@@ -7,6 +7,7 @@ import 'package:flutter_tutorial/design/share_theme.dart';
 import 'package:flutter_tutorial/design/snackbar_demo.dart';
 import 'package:flutter_tutorial/design/tab_bar_demo.dart';
 import 'package:flutter_tutorial/design/update_orientation.dart';
+import 'package:flutter_tutorial/forms/validate_form.dart';
 import 'package:flutter_tutorial/pages/animation/animated_container_app.dart';
 import 'package:flutter_tutorial/pages/animation/fade_widget.dart';
 import 'package:flutter_tutorial/pages/animation/physics_card_drag_demo.dart';
@@ -32,5 +33,7 @@ List<Page> pages = [
       const UpdateOrientation()),
   Page('Use themes to share colors and font styles', '색/폰트 공유',
       const ShareTheme()),
-  Page('Work with tabs', '탭페이지 만들기', const TabBarDemo())
+  Page('Work with tabs', '탭페이지 만들기', const TabBarDemo()),
+  Page('Build a form with validation', 'input validation 체크',
+      const ValidateForm())
 ];
