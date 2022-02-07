@@ -43,11 +43,9 @@ List<Page> pages = [
       const ValidateForm()),
   Page(
       'change in the text field', 'change 리스너 추가', const TextFieldChangeDemo()),
-  Page('Focus and text field', 'focus 동작 확인', const TextFieldFocusDemo())
-      const ValidateForm()),
+  Page('Focus and text field', 'focus 동작 확인', const TextFieldFocusDemo()),
   Page('Add Material touch ripples', '버튼누르면 snackbar 동작', const RipplesDemo()),
-  Page('Implement swipe to dismiss', '스와프로 아이템 삭제', const SwipeListDemo())
-      const ValidateForm()),
+  Page('Implement swipe to dismiss', '스와프로 아이템 삭제', const SwipeListDemo()),
   Page('Display images from the internet', '인터넷 이미지 띄우기',
       const DisplayImageDemo())
 ];

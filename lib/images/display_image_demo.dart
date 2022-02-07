@@ -14,9 +14,7 @@ class DisplayImageDemo extends StatelessWidget {
         ),
         body: ListView(
           children: <Widget>[
-            Image.network('https://picsum.photos/250?image=9'),
-            Image.network(
-                'https://t1.daumcdn.net/cfile/tistory/99BB43455E8108F209')
+            Image.network('https://picsum.photos/250?image=9')
           ],
         ),
       ),
