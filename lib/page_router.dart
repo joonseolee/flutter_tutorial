@@ -13,6 +13,9 @@ import 'package:flutter_tutorial/forms/validate_form.dart';
 import 'package:flutter_tutorial/gestures/ripples_demo.dart';
 import 'package:flutter_tutorial/gestures/swipe_list_demo.dart';
 import 'package:flutter_tutorial/images/display_image_demo.dart';
+import 'package:flutter_tutorial/lists/mixed_list_demo.dart';
+import 'package:flutter_tutorial/lists/simple_grid_demo.dart';
+import 'package:flutter_tutorial/lists/simple_sliver_demo.dart';
 import 'package:flutter_tutorial/pages/animation/animated_container_app.dart';
 import 'package:flutter_tutorial/pages/animation/fade_widget.dart';
 import 'package:flutter_tutorial/pages/animation/physics_card_drag_demo.dart';
@@ -47,5 +50,10 @@ List<Page> pages = [
   Page('Add Material touch ripples', '버튼누르면 snackbar 동작', const RipplesDemo()),
   Page('Implement swipe to dismiss', '스와프로 아이템 삭제', const SwipeListDemo()),
   Page('Display images from the internet', '인터넷 이미지 띄우기',
-      const DisplayImageDemo())
+      const DisplayImageDemo()),
+  Page('Create a grid list', 'Grid 만들기', const SimpleGridDemo()),
+  Page('Create lists with different types of items', 'Mixed data Grid 만들기',
+      MixedListDemo()),
+  Page('Place a floating app bar above a list', '유동적인 스크롤 형태 변환',
+      const SimpleSliverDemo())
 ];

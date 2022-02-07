@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9103775-49fe-447b-aa94-5fc5710dac6f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/lists/mixed_list_demo.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lists/simple_grid_demo.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lists/simple_sliver_demo.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/images/display_image_demo.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/images/display_image_demo.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/page_router.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page_router.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
