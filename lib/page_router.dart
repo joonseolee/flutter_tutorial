@@ -10,6 +10,8 @@ import 'package:flutter_tutorial/design/update_orientation.dart';
 import 'package:flutter_tutorial/forms/text_field_change_demo.dart';
 import 'package:flutter_tutorial/forms/text_field_focus_demo.dart';
 import 'package:flutter_tutorial/forms/validate_form.dart';
+import 'package:flutter_tutorial/gestures/ripples_demo.dart';
+import 'package:flutter_tutorial/gestures/swipe_list_demo.dart';
 import 'package:flutter_tutorial/pages/animation/animated_container_app.dart';
 import 'package:flutter_tutorial/pages/animation/fade_widget.dart';
 import 'package:flutter_tutorial/pages/animation/physics_card_drag_demo.dart';
@@ -41,4 +43,7 @@ List<Page> pages = [
   Page(
       'change in the text field', 'change 리스너 추가', const TextFieldChangeDemo()),
   Page('Focus and text field', 'focus 동작 확인', const TextFieldFocusDemo())
+      const ValidateForm()),
+  Page('Add Material touch ripples', '버튼누르면 snackbar 동작', const RipplesDemo()),
+  Page('Implement swipe to dismiss', '스와프로 아이템 삭제', const SwipeListDemo())
 ];
