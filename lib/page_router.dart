@@ -12,6 +12,7 @@ import 'package:flutter_tutorial/forms/text_field_focus_demo.dart';
 import 'package:flutter_tutorial/forms/validate_form.dart';
 import 'package:flutter_tutorial/gestures/ripples_demo.dart';
 import 'package:flutter_tutorial/gestures/swipe_list_demo.dart';
+import 'package:flutter_tutorial/images/display_image_demo.dart';
 import 'package:flutter_tutorial/pages/animation/animated_container_app.dart';
 import 'package:flutter_tutorial/pages/animation/fade_widget.dart';
 import 'package:flutter_tutorial/pages/animation/physics_card_drag_demo.dart';
@@ -46,4 +47,7 @@ List<Page> pages = [
       const ValidateForm()),
   Page('Add Material touch ripples', '버튼누르면 snackbar 동작', const RipplesDemo()),
   Page('Implement swipe to dismiss', '스와프로 아이템 삭제', const SwipeListDemo())
+      const ValidateForm()),
+  Page('Display images from the internet', '인터넷 이미지 띄우기',
+      const DisplayImageDemo())
 ];
