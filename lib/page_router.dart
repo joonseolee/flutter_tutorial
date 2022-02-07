@@ -7,6 +7,8 @@ import 'package:flutter_tutorial/design/share_theme.dart';
 import 'package:flutter_tutorial/design/snackbar_demo.dart';
 import 'package:flutter_tutorial/design/tab_bar_demo.dart';
 import 'package:flutter_tutorial/design/update_orientation.dart';
+import 'package:flutter_tutorial/forms/text_field_change_demo.dart';
+import 'package:flutter_tutorial/forms/text_field_focus_demo.dart';
 import 'package:flutter_tutorial/forms/validate_form.dart';
 import 'package:flutter_tutorial/pages/animation/animated_container_app.dart';
 import 'package:flutter_tutorial/pages/animation/fade_widget.dart';
@@ -35,5 +37,8 @@ List<Page> pages = [
       const ShareTheme()),
   Page('Work with tabs', '탭페이지 만들기', const TabBarDemo()),
   Page('Build a form with validation', 'input validation 체크',
-      const ValidateForm())
+      const ValidateForm()),
+  Page(
+      'change in the text field', 'change 리스너 추가', const TextFieldChangeDemo()),
+  Page('Focus and text field', 'focus 동작 확인', const TextFieldFocusDemo())
 ];
