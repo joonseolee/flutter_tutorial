@@ -18,6 +18,11 @@ class SimpleSliverDemo extends StatelessWidget {
               flexibleSpace: Placeholder(),
               expandedHeight: 200,
             ),
+            SliverGrid.count(
+              crossAxisCount: 4,
+              children:
+                  List<Widget>.generate(10, (index) => Text('middle $index')),
+            ),
             SliverList(
               delegate: SliverChildBuilderDelegate(
                   (context, index) => ListTile(title: Text('Item #$index')),

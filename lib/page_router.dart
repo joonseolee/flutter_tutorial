@@ -16,6 +16,11 @@ import 'package:flutter_tutorial/images/display_image_demo.dart';
 import 'package:flutter_tutorial/lists/mixed_list_demo.dart';
 import 'package:flutter_tutorial/lists/simple_grid_demo.dart';
 import 'package:flutter_tutorial/lists/simple_sliver_demo.dart';
+import 'package:flutter_tutorial/lists/work_with_long_list_demo.dart';
+import 'package:flutter_tutorial/navigation/navigation_with_arguments_demo.dart';
+import 'package:flutter_tutorial/navigation/returning_data_demo.dart';
+import 'package:flutter_tutorial/navigation/simple_navigation_demo.dart';
+import 'package:flutter_tutorial/navigation/todo_demo.dart';
 import 'package:flutter_tutorial/pages/animation/animated_container_app.dart';
 import 'package:flutter_tutorial/pages/animation/fade_widget.dart';
 import 'package:flutter_tutorial/pages/animation/physics_card_drag_demo.dart';
@@ -55,5 +60,11 @@ List<Page> pages = [
   Page('Create lists with different types of items', 'Mixed data Grid 만들기',
       MixedListDemo()),
   Page('Place a floating app bar above a list', '유동적인 스크롤 형태 변환',
-      const SimpleSliverDemo())
+      const SimpleSliverDemo()),
+  Page('Work with long lists', '비동기 리스트아이템 추가', WorkWithLongListDemo()),
+  Page('Change to named routes', 'routes 처리', const SimpleNavigationDemo()),
+  Page('Pass arguments to a named route', 'router 쪽으로 인자 보내기(방법 2개)',
+      const NavigationWithArgumentsDemo()),
+  Page('returning a data', '데이터를 다른 페이지에 반환', const ReturningDataDemo()),
+  Page('Send data to a new screen', 'todo 페이지', const TodoDemo()),
 ];

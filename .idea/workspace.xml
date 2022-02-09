@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9103775-49fe-447b-aa94-5fc5710dac6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/lists/mixed_list_demo.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/lists/simple_grid_demo.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/lists/simple_sliver_demo.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lists/work_with_long_list_demo.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/navigation/navigation_with_arguments_demo.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/navigation/returning_data_demo.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/navigation/simple_navigation_demo.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/navigation/todo_demo.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a8ea5273939a12e805641671b79e5eaeaab1e231" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lists/simple_sliver_demo.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lists/simple_sliver_demo.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/page_router.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page_router.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,21 +73,6 @@
       <recent name="$PROJECT_DIR$/lib/design" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -90,6 +83,7 @@
       <updated>1643953965123</updated>
       <workItem from="1643953967514" duration="2247000" />
       <workItem from="1644115694912" duration="4524000" />
+      <workItem from="1644366182652" duration="11014000" />
     </task>
     <servers />
   </component>
@@ -117,8 +111,8 @@
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="FlutterRunConfigurationType">
-        <watch expression="_formKey.currentState" language="Dart" />
-        <watch expression="_fields.get(1)" language="Dart" />
+        <watch expression="_formKey.currentState" />
+        <watch expression="_fields.get(1)" />
       </configuration>
     </watches-manager>
   </component>
