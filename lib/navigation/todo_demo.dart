@@ -30,11 +30,19 @@ class TodoScreen extends StatelessWidget {
             return ListTile(
               title: Text(todos[index].title),
               onTap: () {
+                // way 1
                 Navigator.push(
                     context,
                     MaterialPageRoute(
                         builder: (context) =>
                             DetailScreen(todo: todos[index])));
+
+                // way 2
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const DetailScreen2(),
+                        settings: RouteSettings(arguments: todos[index])));
               },
             );
           }),
@@ -42,6 +50,7 @@ class TodoScreen extends StatelessWidget {
   }
 }
 
+// way 1 - passing the arguments in the constructor
 class DetailScreen extends StatelessWidget {
   final Todo todo;
 
@@ -49,6 +58,26 @@ class DetailScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(todo.title),
+      ),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Text(todo.description),
+      ),
+    );
+  }
+}
+
+// way2 - routeSettings
+class DetailScreen2 extends StatelessWidget {
+  const DetailScreen2({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    final todo = ModalRoute.of(context)!.settings.arguments as Todo;
+
     return Scaffold(
       appBar: AppBar(
         title: Text(todo.title),

@@ -21,6 +21,8 @@ import 'package:flutter_tutorial/navigation/navigation_with_arguments_demo.dart'
 import 'package:flutter_tutorial/navigation/returning_data_demo.dart';
 import 'package:flutter_tutorial/navigation/simple_navigation_demo.dart';
 import 'package:flutter_tutorial/navigation/todo_demo.dart';
+import 'package:flutter_tutorial/networking/delete_data_on_the_internet_demo.dart';
+import 'package:flutter_tutorial/networking/parsing_data_demo.dart';
 import 'package:flutter_tutorial/pages/animation/animated_container_app.dart';
 import 'package:flutter_tutorial/pages/animation/fade_widget.dart';
 import 'package:flutter_tutorial/pages/animation/physics_card_drag_demo.dart';
@@ -67,4 +69,7 @@ List<Page> pages = [
       const NavigationWithArgumentsDemo()),
   Page('returning a data', '데이터를 다른 페이지에 반환', const ReturningDataDemo()),
   Page('Send data to a new screen', 'todo 페이지', const TodoDemo()),
+  Page('Delete data on the internet', 'api 를 통해 데이터 처리',
+      const DeleteDataOnTheInternetDemo()),
+  Page('Parsing data', '이미지 파일 api 로 받기', const ParsingDataDemo()),
 ];
