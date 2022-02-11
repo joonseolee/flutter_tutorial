@@ -45,3 +45,7 @@ focusNode: myFocusNode)
 
 `MaterialApp.routes`에 직접 라우팅을 선언해주거나   
 `MaterialApp.onGenerateRoute` 에 선언해주거나 선택할수있다.
+
+## Networking
+
+api josn mapper is difficult to use
