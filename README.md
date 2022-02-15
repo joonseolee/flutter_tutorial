@@ -48,4 +48,4 @@ focusNode: myFocusNode)
 
 ## Networking
 
-api josn mapper is difficult to use
+api jaon mapper is difficult to use
